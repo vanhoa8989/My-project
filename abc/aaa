@@ -1,0 +1,18 @@
+function animateTime(param1){
+		setTimeout(function () {
+			animate(0);
+			setTimeout(function () {
+				animate(1);
+				setTimeout(function(){
+					animate(2);
+					setTimeout(function(){
+						animate(3);
+						setTimeout(function(){
+							animate(4);
+						}, 3000);
+					}, 3000);
+				}, 3000);
+			}, 3000);
+		}, 3000);
+	}
+	
